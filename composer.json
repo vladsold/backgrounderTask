@@ -1,0 +1,19 @@
+{
+  "name": "backgrounder/task_for_linux",
+  "type": "vcs",
+  "description": "Start background php scripts",
+  "keywords": ["php", "backgrounder", "linux", "ssh"],
+  "homepage": "https://github.com/vladsold/backgrounderTask",
+  "autoload": {
+    "files": [
+      "classBackgroundTaskLinux.php"
+    ]
+  },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "VladSold",
+      "email": "vladsold@icloud.com"
+    }
+  ]
+}
