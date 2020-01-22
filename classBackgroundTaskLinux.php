@@ -8,7 +8,6 @@ class classBackgroundTaskLinux
             throw new Exception('No such file to launch');
         }
 
-        // ищем такую же задачу и если нахходим то ЗАПРЕЩАЕМ запуск текущей
         if ($once === true) {
             exec('ps -C php -o pid=,command=', $output);
             foreach ($output as $row) {
