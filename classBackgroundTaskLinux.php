@@ -1,5 +1,6 @@
 <?
-
+namespace Backgrounder
+    
 class classBackgroundTaskLinux
 {
     public function launch($path = null, $timeout = 300, $once = true)
