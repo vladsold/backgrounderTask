@@ -1,5 +1,5 @@
 <?
-namespace Backgrounder
+namespace Backgrounder;
     
 class classBackgroundTaskLinux
 {
